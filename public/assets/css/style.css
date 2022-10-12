@@ -1,0 +1,136 @@
+
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+ 
+  body {
+    font-family: Arial, Helvetica, sans-serif; 
+    overflow-x: hidden;
+    font-size: 1.3rem;
+    line-height: 1.7;
+    color: var(--white);
+    font-weight: 300;
+    } 
+    
+  .App-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+  }
+    
+  #welcome {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    width: 100vw;
+    height: 100vh;
+    }
+
+
+    /*Navigation Bar*/
+
+    .navigation-clean {
+      background: rgba(192, 83, 192, 0.096);
+      padding-top: .75rem;
+      padding-bottom: .75rem;
+      color: white;
+      border-radius: 0;
+      box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+      -5px -5px 30px 15px rgba(0,0,0,0.22);
+      border: none;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+
+    .navigation-clean .navbar-toggler {
+      border-color: rgb(174, 238, 149);
+    }
+
+    @media (min-width:768px) {
+      .navigation-clean {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+      }
+    }
+
+
+
+    /*intro page Cards*/
+
+    .komkom-list {
+      z-index: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    
+    .komkom {
+      margin: 40px auto;
+      width: 300px;
+      height: 300px;
+      border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+      cursor: pointer;
+      transition: 0.4s;
+      text-decoration: none;
+    }
+    
+    .komkom .card_image {
+      width: inherit;
+      height: inherit;
+      border-radius: 40px;
+    }
+    
+    .komkom .card_image img {
+      width: inherit;
+      height: inherit;
+      border-radius: 40px;
+      object-fit: cover;
+    }
+    
+    .komkom .card_title {
+      text-align: center;
+      border-radius: 0px 0px 40px 40px;
+      font-family: sans-serif;
+      font-weight: bold;
+      font-size: 30px;
+      margin-top: -180px;
+      height: 40px;
+    }
+    
+    .komkom:hover {
+      transform: scale(0.9, 0.9);
+      box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+        -5px -5px 30px 15px rgba(0,0,0,0.22);
+    }
+    
+    .title-white {
+      color: white;
+    }
+    
+    .title-black {
+      color: black;
+    }
+    
+    @media all and (max-width: 500px) {
+      .komkom-list {
+        /* On small screens, we are no longer using row direction but column */
+        flex-direction: column;
+      }
+    }
+    
+    
+   
+    
+   
+
+    
