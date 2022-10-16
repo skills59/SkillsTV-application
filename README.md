@@ -4,7 +4,7 @@ This Project is actually a vision, a free live television application that kinda
 ![image](https://user-images.githubusercontent.com/56154525/195384651-06f47ccb-b1a1-4f6d-88b1-7488caae86a4.png)
 
 
-# Project In Progress...
+# Project In Progress..
 
 ##Lets Collaborate.
 hit me up and branch with this.
