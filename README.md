@@ -7,5 +7,5 @@ This Project is actually a vision, a free live television application that kinda
 # Project In Progress..
 
 ##Lets Collaborate.
-hit me up and branch with this.
+hit me up and branch with this..
 
